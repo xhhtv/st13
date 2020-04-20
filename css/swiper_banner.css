@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wapbanner {
+	position: relative;/* DIV盒子参数 */
+	width: 100%;
+	margin: 0 auto
+}
+
+#wapbanner .swiper-container {/* 图片与DIV间距参数 */
+	padding-bottom: 0px;
+}
+
+#wapbanner  .swiper-slide {/* 图片参数 */
+	width: 140px;
+	height: 200px;
+	background: #fff;
+	box-shadow: 0 8px 30px #ddd;
+}
+#wapbanner  .swiper-slide img{
+	display:block;
+}
+#wapbanner  .swiper-slide p {/* 文字参数 */
+	line-height: 18px;/* 垂直参数 */
+	padding-top: 0;
+	text-align: center;
+	color: #000;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+#wapbanner .swiper-pagination {/* 触点位置参数 */
+	width: 100%;
+	bottom: 10px;
+}
+
+#certify {
+	position: relative;/* DIV盒子参数 */
+	width: 680px;
+	margin: 0 auto
+}
+
+#certify .swiper-container {/* 图片与DIV间距参数 */
+	padding-bottom: 10px;
+}
+
+#certify  .swiper-slide {/* 图片参数 */
+	width: 240px;
+	height: 340px;
+	background: #fff;
+	box-shadow: 0 8px 30px #ddd;
+}
+#certify  .swiper-slide img{
+	display:block;
+}
+#certify  .swiper-slide p {/* 文字参数 */
+	line-height: 48px;/* 垂直参数 */
+	padding-top: 0;
+	text-align: center;
+	color: #000;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+#certify .swiper-pagination {/* 触点位置参数 */
+	width: 100%;
+	bottom: 10px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {/* 触点大小参数 */
+	margin: 0 5px;
+	border: 3px solid #fff;
+	background-color: #d5d5d5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {/* 触点-焦点参数 */
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev {
+	left: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/wm_button_icon.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+#certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%
+}
+
+#certify .swiper-button-next {
+	right: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/wm_button_icon.png) no-repeat;
+	background-position: 0 -93px;
+	background-size: 100%;
+}
+
+#certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%
+}
